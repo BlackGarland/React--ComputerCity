@@ -1,0 +1,396 @@
+ol,
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.detail {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    .nav {
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+        border-bottom: 1px solid #dadada;
+        .nav_con {
+            width: 1200px;
+            margin: 0 auto;
+            font-size: 12px;
+            color: #535353;
+            a {
+                color: #333;
+                text-decoration: none;
+                outline: 0;
+            }
+            .go-to-customer-service-wrap {
+                display: none;
+                float: right;
+                font-size: 0;
+                .gtcs {
+                    position: relative;
+                    width: 99px;
+                    height: 24px;
+                    line-height: 24px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    span {
+                        margin-left: 36px;
+                        font-size: 12px;
+                        vertical-align: middle;
+                        color: #fff;
+                        position: relative;
+                        z-index: 1;
+                    }
+                    img {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .detail_main {
+        position: relative;
+        width: 1200px;
+        margin: 0 auto 0;
+        height: 712px;
+        padding-bottom: 40px;
+
+        .con_left {
+            position: relative;
+            width: 520px;
+            float: left;
+            .good_action {
+                font-size: 13px;
+                margin-top: 5px;
+                position: relative;
+                height: 30px;
+                line-height: 30px;
+                width: 530px;
+                .good_code {
+                    color: #a5a5a5;
+                    font-size: 11px;
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    // right: 340px;
+                    height: 30px;
+                    line-height: 30px;
+                    right: auto;
+                    left: 0;
+                }
+                .good-do {
+                    // display: inline-block;
+                    cursor: pointer;
+                    float: right;
+                    top: 0;
+                    .collect_img {
+                        width: 10px;
+                        height: 10px;
+                        float: left;
+                        margin: 11px 6px 0 20px;
+                    }
+                    .share_icon {
+                        width: 12px;
+                        height: 12px;
+                        display: inline-block;
+                        background-image: url(http://series/product/xiaoxin/images/small-icons.png);
+                        background-position: -55px -43px;
+                    }
+                    .bg {
+                        background-image: url(http://series/product/xiaoxin/images/small-icons.png);
+                        background-repeat: no-repeat;
+                        background-position: -39px -44px;
+                        display: inline-block;
+                    }
+                }
+                .good-do:hover {
+                    span {
+                        color: red;
+                    }
+                }
+            }
+        }
+        .con_right {
+            position: relative;
+            margin-top: 36px;
+            width: 642px;
+            float: right;
+            color: #000000;
+            .title {
+                font-size: 22px;
+                font-weight: normal;
+            }
+            .dec {
+                color: #a2a2a2;
+                font-size: 14px;
+                margin-top: 8px;
+                line-height: 22px;
+                word-break: break-all;
+                margin-bottom: 20px;
+            }
+            .price-detail-wrapbox {
+                background: #f9f9f9;
+                border: 1px solid #f0f0f0;
+                .price-detail-wrap {
+                    background: #f9f9f9;
+                    border: 1px solid #f0f0f0;
+                    position: relative;
+                    height: 38px;
+                    margin-top: 9px;
+                    margin-bottom: 9px;
+                    .prc-container {
+                        position: absolute;
+                        padding-left: 15px;
+                        height: 42px;
+                        line-height: 42px;
+                        top: -3px;
+                        .price-desc {
+                            display: inline-block;
+                            font-size: 12px;
+                            color: #434242;
+                            letter-spacing: 0.8px;
+                            margin-right: 35px;
+                            height: 42px;
+                            width: 45px;
+                        }
+                        .sign-prc-group {
+                            display: inline-block;
+                            height: 42px;
+                            .price-sign {
+                                font-size: 12px;
+                                color: #e1140a;
+                                font-weight: bold;
+                            }
+                            .price-show {
+                                font-weight: bold;
+                                font-size: 28px;
+                                color: #e1140a;
+                            }
+                        }
+                    }
+                    .total-evaluate-wrap {
+                        position: absolute;
+                        right: 0;
+                        height: 35px;
+                        border-left: 1px solid #e0e0e0;
+                        top: 2px;
+                        padding: 0 22px;
+                        .total-evaluate-desc {
+                            font-size: 12px;
+                            color: #a5a5a5;
+                        }
+                        .total-evaluate-count {
+                            font-size: 12px;
+                            color: #4a4a4a;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .business-staff-container {
+                margin: 15px 0 0px 20px;
+                color: #434242;
+                .business-title {
+                    font-size: 12px;
+                    font-family: "微软雅黑";
+                    float: left;
+                    width: 58px;
+                    line-height: 30px;
+                    margin-right: 20px;
+                }
+                .business-detail {
+                    line-height: 30px;
+                    font-size: 0;
+                    .span-bd {
+                        font-size: 12px;
+                        vertical-align: middle;
+                    }
+                    .old-for-new {
+                        display: inline-block;
+                        background-color: #96cb27;
+                        border-radius: 12px;
+                        line-height: 22px;
+                        width: 86px;
+                        margin: 0 10px;
+                        text-align: center;
+                        .old-for-new-img {
+                            width: auto;
+                            height: 14px;
+                            vertical-align: middle;
+                            margin-right: 7px;
+                            margin-left: -5px;
+                        }
+                        span {
+                            font-size: 12px;
+                            vertical-align: middle;
+                            color: #fff;
+                        }
+                    }
+                }
+                #guige {
+                    font-size: 12px;
+                    margin-bottom: -8px;
+                    li {
+                        margin: 0;
+                        padding: 0;
+                        font-family: "微软雅黑";
+                        box-sizing: border-box;
+                        item-title {
+                            line-height: 16px;
+                            margin-top: 3px;
+                        }
+                        .guige-item-detail {
+                            float: left;
+                            width: 537px;
+                        }
+                        .spec-big {
+                            display: inline-block;
+                            width: 260px;
+                            padding: 0px 21px;
+                            height: 23px;
+                            border: 1px solid #dadada;
+                            text-align: center;
+                            line-height: 23px;
+                            margin-right: 10px;
+                            cursor: pointer;
+                            margin-bottom: 10px;
+                            img {
+                                display: inline-block;
+                                width: 18px;
+                                vertical-align: middle;
+                            }
+                        }
+                        // .spec-big:{
+                        //     color: rgb(255, 0, 0)
+                        //     border-color: red;
+                        // }
+                        .guige-item-title {
+                            float: left;
+                            margin-right: 20px;
+                            width: 58px;
+                            line-height: 16px;
+                        }
+                    }
+
+                    .add-count-wrap {
+                        width: 92px;
+                        border: 1px solid #dadada;
+                        display: inline-block;
+                        line-height: 24px;
+                        .reduce {
+                            display: inline-block;
+                            width: 20px;
+                            height: 24px;
+                            line-height: 24px;
+                            border-right: 1px solid #dadada;
+                            text-align: center;
+                            cursor: pointer;
+                            .buy-count-plus {
+                                display: inline-block;
+                                width: 14px;
+                                height: 2px;
+                                // background-image: url(/series/product/xiaoxin/images/small-icons.png);
+                                // vertical-align: middle;
+                                // background-repeat: no-repeat;
+                                // background-position: -71px -48px;
+                            }
+                        }
+                        .txt {
+                            width: 50px;
+                            border: none;
+                            text-align: center;
+                            vertical-align: middle;
+                        }
+                        .add {
+                            display: inline-block;
+                            width: 20px;
+                            height: 24px;
+                            line-height: 24px;
+                            border-left: 1px solid #dadada;
+                            text-align: center;
+                            cursor: pointer;
+                            #detail_main .con_right .business-staff-container .add-count-wrap .add .buy-count-minus {
+                                display: inline-block;
+                                width: 10px;
+                                height: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .div_button_group {
+                // position: relative;
+                // float: left;
+                margin-left: 98px;
+                margin-top: 30px;
+                height: 30px;
+                line-height: 30px;
+                .button-pay {
+                    width: 130px;
+                    height: 36px;
+                    line-height: 36px;
+                    display: inline-block;
+                    color: #ffffff;
+                    background-color: #e1140a;
+                    text-align: center;
+                    font-size: 15px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                    border: 1px solid #e1140a;
+                }
+                .button-add {
+                    width: 130px;
+                    height: 36px;
+                    line-height: 36px;
+                    border: 1px solid #e1140a;
+                    display: inline-block;
+                    background-color: #ffeded;
+                    text-align: center;
+                    color: #e1140a;
+                    font-size: 15px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+            }
+            .toAppLoad {
+                position: relative;
+                margin-left: 98px;
+                margin-top: 18px;
+                font-size: 12px;
+                letter-spacing: 0.5px;
+                line-height: 14px;
+                color: #434242;
+                .toAppHover{
+                    color: red;
+                }
+                img {
+                    display: none;
+                    width: 100px;
+                    height: auto;
+                    position: absolute;
+                    z-index: 9999;
+                    left: 20px;
+                    top: 19px;
+                }
+            }
+            .toAppLoad:hover{
+                img{
+                    display: block;
+                }
+                
+            }
+        }
+    }
+}

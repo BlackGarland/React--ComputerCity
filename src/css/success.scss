@@ -1,0 +1,111 @@
+ol,
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.successpage {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    .center-content {
+        width: 1000px;
+        margin: 0 auto;
+        .details-title {
+            font-size: 36px;
+            color: #1c1c1c;
+            letter-spacing: 0.6px;
+            line-height: 45px;
+            margin: 30px 0;
+            font-weight: bold;
+        }
+        .details-info {
+            position: relative;
+            height: 20px;
+            line-height: 20px;
+            font-size: 14px;
+        }
+        .time {
+            margin-right: 10px;
+            color: gray;
+        }
+        .card {
+            margin-right: 10px;
+            color: red;
+        }
+        .head-right {
+            float: right;
+            .browse {
+                margin-right: 12px;
+                color: gray;
+            }
+            .vertical-line {
+                display: inline-block;
+                height: 14px;
+                border-right: 1px solid #cecece;
+            }
+            .share {
+                margin-left: 12px;
+                margin-right: 12px;
+                color: gray;
+            }
+            .share-bg {
+                display: inline-block;
+                width: 12px;
+                height: 13px;
+                cursor: pointer;
+                vertical-align: middle;
+            }
+        }
+
+        .info-line {
+            width: 100%;
+            height: 1px;
+            background: #d7d7d7;
+            margin: 20px 0;
+        }
+        .pcContent {
+            font-size: 18px;
+            line-height: 36px;
+            color: #6c6c6c;
+            text-align: justify;
+
+            p {
+                margin-bottom: 20px;
+                font-family: "微软雅黑";
+                font-size: 18px;
+                color: #434242;
+                img {
+                    border: none;
+                    vertical-align: top;
+                    width: 100%;
+                }
+                video {
+                    width: 100%;
+                }
+            }
+            .pcContenth1 {
+                font-size: 20px;
+                color: #e1140a;
+                line-height: 2em;
+            }
+        }
+    }
+}
+
+.mbx-nav {
+    font-size: 12px;
+    line-height: 12px;
+    color: gray;
+    padding: 35px 30px 14.5px 30px;
+    border-bottom: 1px solid #ededed;
+    img {
+        width: 20px;
+        height: 16px;
+    }
+}

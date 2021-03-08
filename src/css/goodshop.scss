@@ -1,0 +1,227 @@
+ol,
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+}
+.Floatingdialog {
+    width: 50px;
+    height: auto;
+    z-index: 20;
+    position: fixed;
+    right: 16px;
+    top: 150px;
+    .firstLevel {
+        img {
+            width: 50px;
+        }
+        .Floatingdialogimg2{
+            display: none;
+        }
+    }
+
+    .firstLevel:hover {
+        .Floatingdialogimg1 {
+            display: none;
+        }
+        .Floatingdialogimg2 {
+            display: block;
+        }
+    }
+}
+
+.shop_banner_n {
+    width: 230px;
+    position: absolute;
+    top: 33px;
+    left: 50%;
+    margin-left: -600px;
+    z-index: 10;
+    .shop_nav_c {
+        width: 230px;
+        background-color: rgba(255, 255, 255, 0.85);
+        // .list_nav:hover {
+        //     background: #f7f7f7;
+        //     border-right: 0;
+        // }
+        .list_nav {
+            background-color: rgba(255, 255, 255, 0.85);
+            width: 230px;
+            border-left: 1px solid #e6e6e6;
+            border-top: 1px solid #e6e6e6;
+            position: relative;
+            float: left;
+            a {
+                text-decoration: none;
+                font-family: "微软雅黑";
+                color: #494949;
+                font-weight: 600;
+            }
+            li {
+                list-style: none;
+                z-index: 111;
+                .list_iconb {
+                    position: absolute;
+                    right: 20px;
+                    top: 24px;
+                    width: 6px;
+                    height: 9px;
+                    background-position: -73px -36px;
+                    display: inline-block;
+                    background-image: url(https://p4.lefile.cn/product/adminweb/2019/10/30/1987c72b-c35c-4679-a712-6dcf0ca73c58.png);
+                    background-repeat: no-repeat;
+                }
+            }
+            .list_nm {
+                font-size: 16px;
+                font-weight: 600 !important;
+                position: relative;
+                padding: 16px 15px 15px 30px;
+                border-bottom: 1px solid #e6e6e6;
+                border-right: 1px solid #e6e6e6;
+                font-weight: normal;
+                display: block;
+                line-height: 22px;
+                height: 22px;
+                box-sizing: content-box;
+            }
+        }
+        .list_name {
+            .list_cont {
+                width: 964px;
+                background: #f7f7f7;
+                position: absolute;
+                left: 230px;
+                top: -1px;
+                border-right: 1px solid #e6e6e6;
+                border-top: 1px solid #e6e6e6;
+                border-bottom: 1px solid #e6e6e6;
+                padding: 20px 22px 20px 22px;
+                display: none;
+                z-index: 333;
+                min-height: 362px;
+            }
+
+            .list_rt {
+                width: 252px;
+                float: right;
+                img {
+                    width: 252px;
+                    height: 160px;
+                    margin-bottom: 5px;
+                }
+            }
+            .list_lt {
+                width: 630px;
+                float: left;
+                margin-bottom: 20px;
+                .list_lta {
+                    ul {
+                        margin-left: 96px;
+                        width: 575px;
+                        padding-bottom: 5px;
+                        li {
+                            font-size: 12px;
+                            float: left;
+                            line-height: 20px;
+                            height: 20px;
+                            zoom: 1;
+                            margin-right: 10px;
+                        }
+                    }
+                    p {
+                        color: #000;
+                        float: left;
+                        text-align: right;
+                        overflow: hidden;
+                        width: 96px;
+                        background: url(https://p1.lefile.cn/product/adminweb/2019/07/08/5edf2b2c-f8a5-446a-b215-a9af1f7d1606.png)
+                            no-repeat right center;
+                        padding-right: 20px;
+                        line-height: 20px;
+                        box-sizing: border-box;
+                        font-weight: 550;
+                    }
+                }
+            }
+        }
+        .list_name:hover {
+            background: #f7f7f7;
+            border-right: 0;
+
+            .list_cont {
+                display: block;
+            }
+        }
+    }
+}
+.product-list-container {
+    height: 628px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+    .product-top-wrap {
+        overflow: hidden;
+        margin-bottom: 16px;
+        .product-level-name {
+            float: left;
+            height: 35px;
+            .level-name-left {
+                font-size: 26px;
+                font-weight: bold;
+                color: #1f1f1f;
+                letter-spacing: -0.16px;
+            }
+        }
+        .product-level-list {
+            float: right;
+            height: 35px;
+            line-height: 35px;
+            .product-list-topright {
+                float: left;
+                .top-level-list {
+                    margin-right: 16px;
+                    span:hover {
+                        color: #e1140a;
+                        border-bottom: 1px solid #e1140a;
+                    }
+                }
+            }
+
+            .product-list-more {
+                margin-top: 8px;
+                // display: inline-block;
+                float: right;
+                line-height: 17px;
+                vertical-align: bottom;
+                span {
+                    font-size: 14px;
+                    color: #1f1f1f;
+                    vertical-align: bottom;
+                    border-bottom: 1px solid transparent;
+                }
+                img {
+                    width: 18px;
+                    height: 18px;
+                    vertical-align: bottom;
+                }
+                .morelink-hover {
+                    display: none;
+                }
+            }
+            .product-list-more:hover {
+                .morelink {
+                    display: none;
+                }
+                .morelink-hover {
+                    display: inline;
+                }
+            }
+        }
+    }
+}

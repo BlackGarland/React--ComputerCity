@@ -1,0 +1,59 @@
+ol,
+ul,
+li,
+a ，
+p,
+span{
+    list-style: none;
+    text-decoration: none;
+    // color: #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.userinformation{
+    float: left;
+    p{
+        // height: 20px;
+    //    border-bottom: 1px solid #898989;
+       margin-bottom: 6px;
+    }
+    .useertitle{
+        float: left;
+        color: brown;
+        width: 80px;
+        font-weight: 800;
+
+    }
+    .userinf{
+        float: left;
+        color: #898989;
+        font-size: 400;
+        // margin-left: 50px;
+    }
+}
+
+#buycart{
+    height: 600px;
+    background-color: #c9c8c8;
+}
+
+.bottombox{
+    position: relative;
+
+    .payinformationbox{
+
+
+        .payinformationboxtitle{
+            font-size: large;
+        }
+
+        .payinformationbox-order{
+            font-weight: 800;
+        }
+        .payinformationbox-inf{
+            color: #473d3d;
+        }
+    }
+}

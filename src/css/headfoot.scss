@@ -1,0 +1,369 @@
+//  页面底部和底部css
+
+.lis {
+    float: left;
+    line-height: 49px;
+    font-size: 15px;
+    color: #8d8d8d;
+    margin-right: 22px;
+    list-style: none;
+    // text-decoration:none;
+}
+
+.head {
+    z-index: 999;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+}
+
+.content {
+    position: relative;
+    z-index: 999;
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+.ant-affix {
+    z-index: 999;
+}
+
+ol,
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    margin: 0px;
+}
+
+.Logo {
+    float: left;
+    height: 50px;
+    z-index: 999;
+    img {
+        position: relative;
+        z-index: 99999;
+    }
+}
+
+#downloadapp {
+    position: relative;
+}
+
+#downloadapp:hover > .erweima {
+    background-image: url("https://p2.lefile.cn/product/adminweb/2020/04/17/3300a5a4-7180-4e0c-a151-223139e2a0c0.png");
+    background-size: 100% 100%;
+    display: block;
+
+    position: absolute;
+    width: 233px;
+    height: 124px;
+    left: -32px;
+    top: 43px;
+    z-index: 999;
+}
+
+.headright {
+    position: relative;
+    line-height: 49px;
+    float: right;
+    height: 49px;
+
+    a {
+        color: #8d8d8d;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.verticalline {
+    border-left: 1px solid #b8b8b8;
+    height: 11px;
+    display: inline-block;
+    margin: auto 2px;
+}
+
+.phonelogo {
+    float: right;
+    width: 23px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+
+.phonelogo:hover .righterweimabox {
+    float: left;
+    margin: 12px auto auto 12px;
+    background-image: url("https://p2.lefile.cn/product/adminweb/2020/04/17/5ce4890a-c091-46b4-aabb-8cf49320d08b.png");
+    // background-size:100% 100%;
+    width: 80px;
+    height: 80px;
+    z-index: 999;
+}
+
+.rightbox {
+    display: none;
+}
+
+.phonelogo:hover .phone_hov {
+    //  display: none;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: -100px;
+    top: 50px;
+    float: left;
+    width: 198px;
+    height: 105px;
+    z-index: 100;
+
+    // background-color: blue;
+    .rightbox {
+        // float: left;
+        font-size: 13px;
+        width: 80px;
+        display: inline-block;
+        margin-top: 5px;
+        margin-left: 10px;
+        line-height: 20px;
+
+        .span1 {
+            font-size: 13px;
+            width: 80px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .span2 {
+            color: #f10315;
+            font-size: 13px;
+            width: 80px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    }
+}
+
+.span1:hover,
+.span2:hover {
+    color: #000;
+}
+
+.righterweimabox {
+    border-bottom: 1px solid #efefef;
+}
+
+// 688大礼包
+.box688gift {
+    position: absolute;
+    top: 32px;
+    right: 58px;
+    width: 157px;
+    height: 33px;
+    background: url(https://p2.lefile.cn/product/adminweb/2019/01/18/028da9e3-588c-4a8c-9ed7-e94a9c639a12.png) no-repeat;
+    background-size: 157px 33px;
+    background: none\9;
+    z-index: 3;
+    text-align: center;
+    line-height: 36px;
+    font-style: normal;
+    padding-right: 36px;
+
+    span {
+        z-index: 9999;
+        color: #ba9964;
+        font-size: 12px;
+    }
+
+    img {
+        position: absolute;
+        right: 20px;
+        top: 8px;
+    }
+}
+
+// 顶部导航栏
+.headerbox {
+    width: 100%;
+    //  height: 70px;
+    background: #e0e0e0;
+    //  position  : fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
+    min-width: 1310px;
+    overflow: auto;
+    height: 100%;
+    div {
+        height: 100;
+    }
+}
+.changewight {
+    height: 70px;
+    div {
+        height: 100%;
+    }
+}
+.navigationbar {
+    background: #e0e0e0;
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+    transition: all 0.2s;
+
+    ul {
+        // float: left;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        text-align: center;
+        height: 100%;
+        float: left;
+        margin-right: 45px;
+        line-height: 100%;
+        transition: all 0.2s;
+        font-size: 17px;
+        color: #3a3a3a;
+        font-weight: 550;
+        display: table;
+    }
+
+    a {
+        /*弹性布局及属性*/
+        color: black;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+.footer {
+    background-color: #fbfbfb;
+    width: 100%;
+    color: #ccc;
+
+    .imgbox {
+        width: 1200px;
+        margin: 0 auto;
+        height: 199px;
+        background: #fff;
+        img {
+            width: 1200px;
+            height: 199px;
+        }
+    }
+
+    .footmsgbox {
+        width: 1276px;
+        height: 260px;
+        margin: auto;
+        padding: 70px 0 70px 76px;
+        position: relative;
+
+        .footmsgboxinner {
+            width: 152px;
+            float: left;
+
+            .footmsgboxinnertitle {
+                font-size: 16px !important;
+                line-height: 16px !important;
+                margin-bottom: 18px !important;
+                font-weight: 600 !important;
+                color: #424242 !important;
+            }
+
+            .footmsgboxinnermain {
+                display: block;
+                font-size: 13px;
+                line-height: 13px;
+                margin-bottom: 12px;
+
+                a {
+                    color: #757575;
+                }
+            }
+        }
+
+        .footmsgboxright {
+            float: left;
+            width: 223px;
+            border-left: 1px solid #ccc;
+            padding-left: 58px;
+            margin-left: 5px;
+
+            h3 {
+                font-size: 20px !important;
+                letter-spacing: 0 !important;
+                text-align: left !important;
+                color: #e1140a !important;
+            }
+
+            span {
+                font-size: 12px;
+                color: #757575;
+                letter-spacing: 0;
+                text-align: left;
+                line-height: 25px;
+            }
+
+            a {
+                background: url(https://p4.lefile.cn/product/adminweb/2019/08/19/23575141-fd1c-4488-b3a0-08ee2e7d0f8a.png);
+                display: inline-block;
+                width: 139px;
+                height: 36px;
+                color: #757575;
+            }
+        }
+    }
+}
+
+.abc {
+    width: 200px;
+    height: 300px;
+    background-color: red;
+}
+.foot_bot{
+    height: 46px;
+    border-top: 1px solid #424141;
+    background: #272727;
+    .foot_bot_con{
+        color: #757575;
+        width: 1200px;
+        margin: auto;
+        font-size: 12px;
+        line-height: 46px;
+        .foot_bot_left{
+            float: left;
+        }
+        .foot_bot_right{
+            float: right;
+        }
+        a{
+            font-size: 12px;
+            line-height: 46px;
+            color: #757575;
+        }
+    }
+}
+
+.shopping-carimgbox{
+    .hd-shopping-car{
+        position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    top: -3px;
+    vertical-align: middle;
+    }
+}
+.shopping-carimgbox:hover{
+    cursor:pointer
+}

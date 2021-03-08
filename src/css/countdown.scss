@@ -1,0 +1,269 @@
+ol,
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+}
+.countdown {
+    position: relative;
+    width: 1200px;
+    height: 340px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .flash-middle {
+        width: 918px;
+        position: absolute;
+        left: 230px;
+        right: 49px;
+        height: 340px;
+        overflow: hidden;
+        background-color: #fff;
+        .middle-countdown-cont {
+            height: 66px;
+            line-height: 66px;
+            border-bottom: 1px solid #e8e8e8;
+            background-color: #fff;
+            .middle-countdown {
+                overflow: hidden;
+                height: 100%;
+                margin-left: 22px;
+                font-size: 0;
+                a {
+                    background-image: linear-gradient(134deg, #ec1111 0%, #ff8200 97%);
+                    border-radius: 13px;
+                    color: #fff;
+                    width: 164px;
+                    height: 26px;
+                    display: inline-block;
+                    width: 164px;
+                    height: 26px;
+                    line-height: 26px;
+                    margin-right: 10px;
+                    vertical-align: middle;
+                    font-size: 14px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    span {
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                        text-align: center;
+                        color: #fff;
+                    }
+                }
+                .begininaminute {
+                    width: 164px;
+                    height: 26px;
+                    display: inline-block;
+                    width: 164px;
+                    height: 26px;
+                    line-height: 26px;
+                    margin-right: 10px;
+                    vertical-align: middle;
+                    font-size: 14px;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .middle-product-list {
+            margin: 0 0 0 23px;
+            .selkill-pro-placeholder {
+                width: 195px;
+                display: inline-block;
+                margin-right: 23px;
+                margin-top: 17px;
+                border-right: 1px solid #e8e8e8;
+                padding-right: 10px;
+                .product-detail-img {
+                    width: 160px;
+                    height: 160px;
+                    line-height: 160px;
+                    text-align: center;
+                    margin: auto;
+                    img {
+                        display: inline-block;
+                        vertical-align: middle;
+                        max-width: 160px;
+                    }
+                }
+                .product-detail-title {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    margin-top: 9px;
+                    width: 186px;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    // height: 20px;
+                    .pro-detail-txt {
+                        display: inline-block;
+                        width: 180px;
+
+                        text-overflow: ellipsis;
+                        // white-space: nowrap;
+                        font-size: 15px;
+                        color: #242424;
+                        font-weight: 600;
+                    }
+                }
+                .product-detail-icons {
+                    margin-top: 4px;
+                    height: 18px;
+                    position: relative;
+                    .discount {
+                        position: absolute;
+                        background: #ffe7e4;
+                        width: auto;
+                        height: 16px;
+                        line-height: 16px;
+                        border: 1px solid #ffe7e4;
+                        border-radius: 2px;
+                        .pro-icon-pic {
+                            display: inline-block;
+                            width: 13px;
+                            height: 13px;
+                            background-image: url(https://p1.lefile.cn/product/adminweb/2020/02/24/eeae0241-a38e-4e5d-802c-4091175a1cbe.png);
+                            background-size: 13px 13px;
+                            margin-top: 1.5px;
+                            margin-left: 2px;
+                        }
+                        .pro-icon-txt {
+                            display: inline-block;
+                            font-size: 12px;
+                            color: #ff2f2f;
+                            left: 17px;
+                            vertical-align: top;
+                            margin: 0 3px;
+                        }
+                    }
+                }
+                .product-detail-price {
+                    margin-top: 7px;
+                    .pro-cur-price {
+                        display: inline-block;
+                        margin-right: 11px;
+                        .currency-sign {
+                            font-size: 16px;
+                            color: #e72d21;
+                            font-weight: bold;
+                        }
+                        .pro-price {
+                            font-size: 16px;
+                            color: #e2231a;
+                            font-weight: 600;
+                        }
+                    }
+                    .pro-del-price {
+                        display: inline-block;
+                        font-size: 0;
+                        color: #858585;
+                        .del-sign {
+                            font-size: 14px;
+                            color: #858585;
+                        }
+                        .del-price {
+                            font-size: 14px;
+                            color: #858585;
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .flash-left {
+        position: absolute;
+        left: 0;
+        width: 230px;
+        height: 340px;
+        background-image: url(https://p2.lefile.cn/product/adminweb/2019/11/26/2b4b9fee-84ee-4fb1-9891-3b3390fb5fd5.png);
+        background-size: 230px 340px;
+        .left-txt-icon {
+            display: inline-block;
+            width: 120px;
+            height: 27px;
+            background-image: url(https://p1.lefile.cn/product/adminweb/2019/11/26/72f84116-d80c-4fb3-a39e-ae16271f6c76.png);
+            background-size: 120px 27px;
+        }
+        .flash-left-title {
+            margin-top: 44px;
+            text-align: center;
+        }
+        .flash-left-icon {
+            text-align: center;
+        }
+        .flash-left-countdown {
+            margin-top: 14px;
+            text-align: center;
+        }
+        .slash-icon {
+            display: inline-block;
+            width: 28px;
+            height: 60px;
+            margin-top: 22px;
+            background-image: url(https://p2.lefile.cn/product/adminweb/2019/12/11/eb749e1e-e9fa-48ba-95a9-b2041ad01154.png);
+            background-size: 28px 60px;
+        }
+    }
+    .countdownbox {
+        text-align: center;
+        .left-round {
+            font-size: 20px;
+            color: #fff;
+            font-weight: 600;
+        }
+        .left-round-txt {
+            font-size: 20px;
+            color: #fff;
+            font-weight: 600;
+        }
+        .flash-countdown-txt {
+            font-size: 16px;
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+    .NoTimeContentbox {
+        margin: 0 auto;
+        width: 135px;
+        color: white;
+    }
+    .flash-right {
+        position: absolute;
+        right: 0;
+        width: 49px;
+        height: 340px;
+        background-image: linear-gradient(37deg,#ec1111 1%,#ff8200 99%);
+        .right-center-cont {
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            width: 18px;
+            height: 106px;
+            font-size: 14px;
+            color: #fff;
+            text-align: center;
+            cursor: pointer;
+            span{
+                color: #fff;
+            }
+            .right-more-icon {
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                background-image: url(https://p2.lefile.cn/product/adminweb/2019/11/26/3a702767-4b0a-4e74-a14e-8ddcf5b26609.png);
+                background-size: 18px 18px;
+                margin-top: 11px;
+            }
+        }
+    }
+}

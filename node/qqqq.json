@@ -1,0 +1,291 @@
+{
+  "code": 100000,
+  "msg": "success",
+  "data": {
+    "banners": [
+      {
+        "image": "//p3.lefile.cn/fes/cms/2021/02/24/d8l17zl7fcx6frkizxa994l9md9lds880755.jpg",
+        "link": "https://mactivity.lenovo.com.cn/2021/0224.html?pmf_group=in-push&pmf_medium=xcx-banner&pmf_source=Z00018480T000"
+      },
+      {
+        "image": "//p2.lefile.cn/fes/cms/2021/02/24/i536si8rqaq5z5w1gzyy5pxvxqxj54928425.jpg",
+        "link": "https://mactivity.lenovo.com.cn/smb/cpr.html?pmf_group=in-push&pmf_medium=xcx-banner&pmf_source=Z00018481T000"
+      },
+      {
+        "image": "//p3.lefile.cn/fes/cms/2021/02/24/71xe2ocn9jia3cl7wicysrj617ro00600191.jpg",
+        "link": "https://mactivity.lenovo.com.cn/xiaofei/tsj/20201111DT.index.html?pmf_group=in-push&pmf_medium=xcx-banner&pmf_source=Z00018493T000"
+      },
+      {
+        "image": "//p3.lefile.cn/fes/cms/2021/02/24/p8bux81zou097sggollrazdqeyvg5m106859.jpg",
+        "link": "https://m.lenovo.com.cn/mobile/index.html?pmf_group=in-push&pmf_medium=xcx-banner&pmf_source=Z00016347T000"
+      },
+      {
+        "image": "//p1.lefile.cn/fes/cms/2021/02/24/upoqeo5v9qnet0ppwqafqc6zaixns4581518.jpg",
+        "link": "https://mactivity.lenovo.com.cn/xiaofei/xiaoxin/hdy.html?pmf_group=in-push&pmf_medium=xcx-banner&pmf_source=Z00014902T000"
+      },
+      {
+        "image": "//p2.lefile.cn/fes/cms/2021/02/24/2kodqn86flworreh2mvlqu0o66lhn5593256.jpg",
+        "link": "https://mactivity.lenovo.com.cn/xiaofei/qbzc/hdy.html?pmf_group=in-push&pmf_medium=xcx-banner&pmf_source=Z00016566T000"
+      },
+      {
+        "image": "//p4.lefile.cn/fes/cms/2021/03/02/voia314p2rbfpya47rfv762ok36cze908559.jpg",
+        "link": "https://mactivity.lenovo.com.cn/CMSB/indexwap.html?channel=ZY-CLLX1&pmf_source=P0000002443M0025"
+      },
+      {
+        "image": "//p1.lefile.cn/fes/cms/2020/12/23/iq8zq8ihvy1s585ouvuu74vjlsdp1t296329.jpg",
+        "link": "https://mactivity.lenovo.com.cn/smb/xpss.html?pmf_group=in-push&pmf_medium=xcx-banner&pmf_source=Z00017767T000"
+      },
+      {
+        "image": "//p2.lefile.cn/fes/cms/2021/02/26/tn9mvq4fvj3a0fv62067gbae8xvss1533886.jpg",
+        "link": "https://m.lenovo.com.cn/stryoutnew/tryhtml/95.html?pmf_group=in-push&pmf_medium=xcx-banner&pmf_source=Z00018560T003"
+      }
+    ],
+    "services": "//p2.lefile.cn/fes/cms/2020/09/16/hthjaln6r9roe89sfgoal88ry05tz5806234.jpg",
+    "recommend": [
+      {
+        "image": "//p2.lefile.cn/fes/cms/2020/10/31/gc39g83f8rlu0hz9krr8pzdd4migti846874.png",
+        "link": "/subpackagesVoice/voiceGift/voiceGift",
+        "name": "爆品打call"
+      },
+      {
+        "image": "//p1.lefile.cn/fes/cms/2021/02/05/68w3ci60gpedxmdbqy1jdor2uucuvm347712.png",
+        "link": "/subpackagesVoice/superDay/superDay",
+        "name": "购物领现金"
+      },
+      {
+        "image": "//p4.lefile.cn/fes/cms/2020/11/20/qvxiyrsis4lrzvvpc9u0pgmzo1t2tu104310.png",
+        "link": "/subpackages/groupBuying/gpBuyIndex/gpBuyIndex",
+        "name": "1元拼团"
+      },
+      {
+        "image": "//p3.lefile.cn/fes/cms/2020/09/17/nj7wdal9elxl5kxgqr3kgmopeupduz104239.png",
+        "link": "https://m.lenovo.com.cn/page/jf/jfsc.html?pmf_group=in-push&pmf_medium=xcxjgw&pmf_source=Z00014075T000",
+        "name": "乐豆上新4折 "
+      }
+    ],
+    "goods": {
+      "3": {
+        "floor": "主推新品",
+        "type": "sec_floor",
+        "goods": [
+          {
+            "desc": "第十一代英特尔酷睿i5-1135G7/Windows 10 家庭中文版/14.0英寸/16G/512G SSD/集成显卡/深空灰",
+            "goodsId": "1010349",
+            "img": "//p4.lefile.cn/product/adminweb/2020/10/20/6rM0WAUyFJsdz1OeSJIUCh0j3-6096.jpg",
+            "name": "YOGA14s 2021酷睿版英特尔Evo平台 14英寸全面屏轻薄笔记本深空灰",
+            "price": 6199,
+            "tag": ""
+          },
+          {
+            "desc": "第十代英特尔®酷睿™i7-10875H/Windows 10 家庭中文版/15.6英寸/16G/512G SSD/ GeForce RTX™ 2060 6G独显/钛晶灰",
+            "goodsId": "1008412",
+            "img": "//p4.lefile.cn/product/adminweb/2021/01/19/hUv1xenT1L4sDLgMBCQxBIUiY-3137.jpg",
+            "name": "拯救者 Y7000P 2020款 英特尔酷睿i7 15.6英寸游戏笔记本 钛晶灰",
+            "price": 8299,
+            "tag": ""
+          },
+          {
+            "desc": "AMD锐龙7 4800U移动处理器/Windows 10 家庭中文版/16GB/512GB SSD/核心显卡（Radeon Graphics）/13.3英寸2.5K 广视角技术 LED背光显示屏",
+            "goodsId": "1010420",
+            "img": "//p2.lefile.cn/product/adminweb/2020/10/20/fhunrLbvR9IJ2ZO17C2RLShgi-4466.jpg",
+            "name": "【王源同款】全新ThinkBook 13s 锐龙版 轻颜系创造本 07CD",
+            "price": 5399,
+            "tag": ""
+          },
+          {
+            "desc": "AMD RYZEN_7_4800H/Windows 10 家庭中文版/27英寸/32G（16Gx2）/2T +512GB SSD/RTX2060_6GB显卡/银色",
+            "goodsId": "1010410",
+            "img": "//p2.lefile.cn/product/adminweb/2020/10/19/cMPUYCha6wuVnxll22pyQoI6p-6540.jpg",
+            "name": "联想 YOGA 27可旋转27寸量子点广色域4K屏一体机台式电脑",
+            "price": 10499,
+            "tag": ""
+          },
+          {
+            "desc": "Qualcomm® Snapdragon™ 730G/8核/Android系统/11.5英寸/6G/128G/WIFI版/深空灰",
+            "goodsId": "1010319",
+            "img": "//p1.lefile.cn/product/adminweb/2020/10/19/5jZDS9FqO1y0ITekQAzb1KKRQ-3287.jpg",
+            "name": "联想平板小新Pad Pro 11.5英寸 影音娱乐办公学习平板电脑 深空灰",
+            "price": 1999,
+            "tag": ""
+          },
+          {
+            "desc": "",
+            "goodsId": "1010481",
+            "img": "//p2.lefile.cn/product/adminweb/2020/10/19/H5Xb0RrrDBwkYk5l7deRAyMgN-5594.jpg",
+            "name": "YOGA 65W电源适配器-故宫文创联名版 凝脂白",
+            "price": 129,
+            "tag": ""
+          }
+        ]
+      },
+      "4": {
+        "floor": "游戏玩家",
+        "type": "",
+        "goods": [
+          {
+            "desc": "AMD Ryzen 7 4800H/Windows 10 家庭中文版/15.6英寸/32G/1T SSD+512G SSD/ GeForce RTX 2060 /6G独显/钛晶灰 定制款",
+            "goodsId": "1009474",
+            "img": "//p3.lefile.cn/product/adminweb/2020/08/24/vve7siHt9xb6JoKpX1BUFLfVl-0678.jpg",
+            "name": "拯救者 R7000P 15.6英寸游戏笔记本 钛晶灰 定制款",
+            "price": 10599,
+            "tag": ""
+          },
+          {
+            "desc": "十代英特尔酷睿i7-10875H/Windows 10 家庭中文版/15.6英寸/32G/1T SSD/GeForce RTX™ 2080 Super MaxQ 8G独显/耀石灰",
+            "goodsId": "1008141",
+            "img": "//p2.lefile.cn/product/adminweb/2020/05/29/Iy7o7Nd1h50pdXbAAtWMOzoeZ-5089.jpg",
+            "name": "拯救者 Y9000K 2020 英特尔酷睿i7 15.6英寸专业电竞本 耀石灰",
+            "price": 15999,
+            "tag": ""
+          },
+          {
+            "desc": "可容纳15.6英寸及以下轻薄本",
+            "goodsId": "1010463",
+            "img": "//p3.lefile.cn/product/adminweb/2020/10/19/GqZdixW5l2EK4uL7VLl9VOmaz-4026.jpg",
+            "name": "YOGA双肩包 岩灰色",
+            "price": 329,
+            "tag": ""
+          },
+          {
+            "desc": "RGB无线游戏鼠标  轻质便携 吃鸡鼠标",
+            "goodsId": "1008837",
+            "img": "//p3.lefile.cn/product/adminweb/2020/08/03/oYpzzhJN4llwmxe8aZDFwg3ke-6481.jpg",
+            "name": "拯救者M600鼠标",
+            "price": 249,
+            "tag": ""
+          }
+        ]
+      },
+      "5": {
+        "floor": "学生潮范",
+        "type": "",
+        "goods": [
+          {
+            "desc": "第11代英特尔酷睿i5-1135G7/Windows 10 家庭中文版/15.6英寸/16G/512G SSD/GeForce MX450 2G独显/银色",
+            "goodsId": "1010326",
+            "img": "//p1.lefile.cn/product/adminweb/2020/10/30/AyzXCiWt8UbPMXPrW4K1ULWks-7719.jpg",
+            "name": "小新 Air15 2021款 英特尔酷睿i5 15.6英寸全面屏轻薄笔记本 银色",
+            "price": 5999,
+            "tag": ""
+          },
+          {
+            "desc": "十代英特尔酷睿i5-1035G1/Windows 10 家庭中文版/14.0英寸/16G/512G SSD/GeForce MX350 2G独显/星月银",
+            "goodsId": "1007062",
+            "img": "//p1.lefile.cn/product/adminweb/2020/10/28/SvxH7y4A9SFh6ZdXrbEJKECx4-3762.jpg",
+            "name": "网课小新Air142020酷睿版英特尔酷睿i5 14英寸全面屏轻薄本星月银",
+            "price": 4999,
+            "tag": ""
+          },
+          {
+            "desc": "静音按键，经久耐用，超300万次点击，免开关，自动省电休眠，侧裙/底部防滑设计，人体工学，饱满曲线，舒适质感，一键触发人工服务",
+            "goodsId": "1006094",
+            "img": "//p3.lefile.cn/product/adminweb/2019/10/16/XcNkqN9Y3wiNTD4EMdg1niRrz-4160.jpg",
+            "name": "联想无线静音鼠标N911 Pro 黑色（送电脑远程调修服务）",
+            "price": 99,
+            "tag": ""
+          },
+          {
+            "desc": "纤薄键帽，人体工学设计",
+            "goodsId": "1005156",
+            "img": "//p4.lefile.cn/product/adminweb/2019/07/15/rN6vZt9SD7nxaW1zyVQZxUQTl-6769.jpg",
+            "name": "联想有线键鼠套装MK618（送电脑远程调修服务）",
+            "price": 66,
+            "tag": ""
+          }
+        ]
+      },
+      "6": {
+        "floor": "商务精英",
+        "type": "",
+        "goods": [
+          {
+            "desc": "全新十代英特尔酷睿i5-10210U/Windows 10家庭中文版/16GB/512GB SSD/英特尔® UHD 显示芯片/14英寸FHD IPS LED背光显示屏/wifi版/沉浸黑",
+            "goodsId": "1008413",
+            "img": "//p3.lefile.cn/product/adminweb/2020/05/18/hbaHG1DaZD239B21KwjK9ey17-4292.jpg",
+            "name": "ThinkPad X1Carbon2020英特尔酷睿i5笔记本电脑20U9A005CD沉浸黑",
+            "price": 10999,
+            "tag": ""
+          },
+          {
+            "desc": "全新十代英特尔酷睿i5-10210U/Windows 10家庭中文版/8G/1TB HD/AMD Radeon R625/14英寸FHD TN 显示屏",
+            "goodsId": "1008974",
+            "img": "//p4.lefile.cn/product/adminweb/2019/10/12/BSb4CApaZT4ugz2DNAcJYn9Ox-1047.jpg",
+            "name": "ThinkPad E14 英特尔酷睿i5 笔记本电脑 20RAA003CD",
+            "price": 4799,
+            "tag": ""
+          },
+          {
+            "desc": "全新11代英特尔酷睿i5-1135G7/Windows 10 家庭中文版/16GB/512GB SSD/NVIDIA  GeForce MX450/14英寸FHD 广视角技术 LED背光显示屏/银灰色",
+            "goodsId": "1010422",
+            "img": "//p1.lefile.cn/product/adminweb/2020/10/20/SxV2kUAaLtksdKGNS4lAz8xDx-3734.jpg",
+            "name": "【王源同款】全新ThinkBook 14 酷睿版英特尔酷睿i5 锐智系创造本",
+            "price": 4999,
+            "tag": ""
+          },
+          {
+            "desc": "",
+            "goodsId": "1003506",
+            "img": "//p1.lefile.cn/product/adminweb/2018/12/07/fRXjkSMb44yK6Nds0FDpvOlXP-4961.jpg",
+            "name": "thinkplus万向轮登机箱 – 乌墨绿",
+            "price": 499,
+            "tag": ""
+          }
+        ]
+      },
+      "7": {
+        "floor": "特色周边",
+        "type": "",
+        "goods": [
+          {
+            "desc": "全家使用 20项核心指标测量 蓝牙连手机可云存储 体重秤男女健康减肥 一年换新质保售后无忧",
+            "goodsId": "1006900",
+            "img": "//p4.lefile.cn/product/adminweb/2020/04/15/DuCoRnlYMhjDXq7A6skoKzDBL-1067.jpg",
+            "name": "联想智能体脂秤X1 故宫文创联名",
+            "price": 299,
+            "tag": ""
+          },
+          {
+            "desc": "",
+            "goodsId": "1007084",
+            "img": "//p4.lefile.cn/product/adminweb/2018/10/30/qQMcGMnqycH2zJqe8S214j5sz-3627.jpg",
+            "name": "thinkplus 口红电源 联想方口版 65W",
+            "price": 149,
+            "tag": ""
+          },
+          {
+            "desc": "原厂盘芯，3.0高速传输，防震防压设计",
+            "goodsId": "1007526",
+            "img": "//p4.lefile.cn/product/adminweb/2020/03/15/TBvQs6fF6e0RSiUrVXiA6XUff-9587.jpg",
+            "name": "联想USB3.0移动硬盘F308 Pro暮辰黑1TB",
+            "price": 319,
+            "tag": ""
+          },
+          {
+            "desc": "YOGA手提内胆包/收纳包限定礼盒 故宫文创联名款",
+            "goodsId": "1009283",
+            "img": "//p4.lefile.cn/product/adminweb/2020/08/13/kxox9s02n9VkEENsfRNZLW6vI-2689.jpg",
+            "name": "YOGA手提内胆包/收纳包限定礼盒 故宫文创联名款",
+            "price": 199,
+            "tag": ""
+          },
+          {
+            "desc": "拯救者Y360 电竞耳机；自适应悬浮式头梁亲肤人造蛋白材质；独立USB声卡； 7.1声道环绕；音效声效灯效一键掌控",
+            "goodsId": "1007069",
+            "img": "//p1.lefile.cn/product/adminweb/2018/04/24/eFUBtipyT59kJDtpiSqe8eO5I-7643.jpg",
+            "name": "联想拯救者电竞耳机 游戏耳麦 Star Y360 （黑色）",
+            "price": 169,
+            "tag": ""
+          },
+          {
+            "desc": "适用机型：IdeaPad 100/300/500/700及其系列（包含Lenovo  A/G/天逸/旭日系列）&小新（全系列）&MIIX。在原有保修基础上，整机延长至3年保修，送修服务。全国联保、原厂部件、免费维修。赠：1次价值98元电脑远程软件调修服务",
+            "goodsId": "1009551",
+            "img": "//p4.lefile.cn/product/adminweb/2020/09/01/j5xkLAOQ3Z9sSiHNtt4LlrmjG-8399.jpg",
+            "name": "Lenovo Care+整机延保1年（小新&ideapad&MIIX）",
+            "price": 349,
+            "tag": ""
+          }
+        ]
+      }
+    }
+  }
+}
