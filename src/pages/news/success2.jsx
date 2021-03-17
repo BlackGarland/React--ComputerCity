@@ -28,7 +28,7 @@ class success1 extends Component {
                                 <img src="//p2.lefile.cn/fes/cms/2020/05/26/vz5msm0cbtthd7u2e593y67uo1ge29885211.jpg" className="share-bg " />
                             </div>
                         </div>
-                        <div class="info-line"></div>
+                        <div className="info-line"></div>
                         <div className="pcContent">
                             <p><img src="//p2.lefile.cn/fes/cms/2020/03/16/qtfngdfvjzxdfpeh1tcahubmf0wzw9208140.jpg" /></p>
                             {/* <p style={{ textAlign: "center" }}>
@@ -42,7 +42,7 @@ class success1 extends Component {
                             <p>北京市气象局由北京市国家气象系统各级管理机构实行上级主管气象机构与本级人民政府双重领导，以上级气象主管机构领导为主的管理体制。在上级气象主管机构和本级人民政府的领导下，根据授权承担北京市行政区域内气象工作的政府行政管理职能，依法履行气象主管机构的各项职责。</p>
                             <h1 className="pcContenth1">业务痛点</h1>
                             <p >2022年北京冬奥会雪上项目在山地特殊气候条件下举行，受天气气候的影响情况复杂。组委会需要时间精确到分钟级、空间到百米级的精准赛事气象专项预报和兼顾多方需求的气象信息服务。北京气象局承担本次冬奥会的专业气象预报的发布工作，现有多套高性能计算机服务</p>
-                            <h1 class="pcContenth1">解决方案</h1>
+                            <h1 className="pcContenth1">解决方案</h1>
                             <p>在综合对比和多家厂商的整体方案，并经过公开招投标之后，北京气象局最终选择了联想HPC端到端的整体解决方案和专业服务。</p>
                         </div>
                     </div>

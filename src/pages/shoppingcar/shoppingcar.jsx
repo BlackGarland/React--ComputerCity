@@ -1,3 +1,4 @@
+// 购物车页面
 import React, { Component } from "react";
 import "../../css/shoppingcar.scss"
 import "../../css/headfoot.scss"
@@ -20,6 +21,7 @@ class shoppingcar extends Component {
 
     }
     componentDidMount() {
+        document.documentElement.scrollTop = document.body.scrollTop =0;
         fetch("/api/shoppinglist")
             .then(res => res.json())
             .then(data => {
@@ -140,10 +142,10 @@ class shoppingcar extends Component {
                             </div>
                         </div>
                         <div className="bc_table">
-                            <table cellpadding="0" cellspacing="0">
+                            <table cellPadding="0" cellspacing="0">
                                 <tbody>
                                     <tr>
-                                        <th colspan="3" width="462">商品</th>
+                                        <th colSpan="3" width="462">商品</th>
                                         <th width="163">规格</th>
                                         <th width="152">单价</th>
                                         <th width="152">数量</th>
@@ -152,12 +154,12 @@ class shoppingcar extends Component {
                                     </tr>
                                 </tbody>
                             </table>
-                            <table cellpadding="0" cellspacing="0">
+                            <table cellPadding="0" cellspacing="0">
                                 <tbody>
 
                                     {
                                         this.state.goodlist.map((item, index) => {
-                                            return <div >
+                                            return <div key={index}>
 
                                                 <tr className="tr2">
                                                     <td width="57" className="bc_table_sel">

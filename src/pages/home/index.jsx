@@ -54,8 +54,8 @@ class home extends Component {
         return (
             <div>
                 <Headfoot name={name} history={this.props.history}></Headfoot>
-                    <Carouselmap goodlist={this.state.goodlist}></Carouselmap>
-                    <Producttab></Producttab>
+                    <Carouselmap goodlist={this.state.goodlist} history={this.props.history}></Carouselmap>
+                    <Producttab history={this.props.history}></Producttab>
                 <Foot></Foot>
 
 

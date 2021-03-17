@@ -28,7 +28,7 @@ class success1 extends Component {
                                 <img src="//p3.lefile.cn/fes/cms/2020/08/11/osmabsdo11puvubspfgb7pi1aztyma067398.jpg" className="share-bg " />
                             </div>
                         </div>
-                        <div class="info-line"></div>
+                        <div className="info-line"></div>
                         <div className="pcContent">
                             <p><img src="//p2.lefile.cn/fes/cms/2020/03/16/qtfngdfvjzxdfpeh1tcahubmf0wzw9208140.jpg" /></p>
                             {/* <p style={{ textAlign: "center" }}>
@@ -46,7 +46,7 @@ class success1 extends Component {
 
 特殊场景不具备佩戴条件：遇特殊需要特别健康监控的场景（如登山、旅游或参与重大活动、赛事等），传统的监控方法往往缺乏佩戴条件，很难满足实时健康预警和全时段监测的需求。
                             </p>
-                            <h1 class="pcContenth1">解决方案</h1>
+                            <h1 className="pcContenth1">解决方案</h1>
                             <p>为保证国庆阅兵相关的健康全时段监测，解放军总医院第二医学中心选中了联想的智慧远程体征监护穿戴产品及监控平台。
 
 从智能穿戴设备数据采集到人工智能算法支持形成完整的医疗健康管理服务平台，整体设计采用设备前端、手持设备端和云端三级算法体系架构，专业的心电数据分析和心电异常、疾病分析算法/系统；整合了人工智能，5G，云视频，量子加密技术使整个方案更加智能化，精确化的同时保证其实时性和保密性。配合解放军总医院第一医学中心专家和现场医护团队实施了此次典礼保健任务。</p>

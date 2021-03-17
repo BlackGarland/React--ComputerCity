@@ -42,14 +42,7 @@ class producttab extends Component {
         this.tab_content4 = React.createRef();
         this.tab_content5 = React.createRef();
 
-        // const goodlilist=this.state.goodli[0].tabbox1.tab1
-        // const goodlilist1=this.state.goodli[0].tabbox1.tab1
-        // const goodlilist2=this.state.goodli[0].tabbox1.tab2
-        // const goodlilist3=this.state.goodli[0].tabbox1.tab3
-        // const goodlilist4=this.state.goodli[0].tabbox1.tab4
-        // const goodlilist5=this.state.goodli[0].tabbox1.tab5
-        // const goodlilist6=this.state.goodli[0].tabbox1.tab6
-        // const goodlilist7=this.state.goodli[0].tabbox1.tab7
+
     }
 
     handleClick() {
@@ -166,7 +159,21 @@ class producttab extends Component {
             goodlistnum: "7"
         })
     }
+    itemclick1(){
+        
+        var id=this.state.goodli[0].tabbox1.tab1.id
+        console.log(id,"点击")
+        var url='/api/goodid?id='+id.toString()
+        fetch(url,{
+            method:'get'
+        }).then(this.props.history.push({pathname:"/gooddetail" }))
+    }
+    itemclick2(){
 
+    }
+    itemclick3(){
+
+    }
 
 
 
@@ -376,33 +383,33 @@ class producttab extends Component {
 
                             <div className="goodli">
                                 <div className="clearfix">
-                                    <div className="goodlibox">
-                                        <a href="">
+                                    <div className="goodlibox" onClick={this.itemclick1.bind(this)}>
+                                        <a href="javascript:;">
                                             <img src={goodlilist.tab1.pic} alt="" />
-                                            <div className="goodlilistcontent">
+                                            <div className="goodlilistcontent" >
                                                 <p className="goodlilistcontentname">{goodlilist.tab1.name}</p>
                                                 <p className="goodlilistcontentberif"> {goodlilist.tab1.berif}</p>
-                                                <p className="goodlilistcontentprie">￥ <span gcode="1008412">{goodlilist.tab1.prie}</span></p>
+                                                <p className="goodlilistcontentprice">￥ <span gcode="1008412">{goodlilist.tab1.price}</span></p>
                                             </div>
                                         </a>
                                     </div>
                                     <div className="goodlibox">
                                         <a href="">
                                             <img src={goodlilist.tab2.pic} alt="" />
-                                            <div className="goodlilistcontent">
+                                            <div className="goodlilistcontent" onClick={this.itemclick2.bind(this)} >
                                                 <p className="goodlilistcontentname">{goodlilist.tab2.name}</p>
                                                 <p className="goodlilistcontentberif"> {goodlilist.tab2.berif}</p>
-                                                <p className="goodlilistcontentprie">￥ <span gcode="1008412">{goodlilist.tab2.prie}</span></p>
+                                                <p className="goodlilistcontentprice">￥ <span gcode="1008412">{goodlilist.tab2.price}</span></p>
                                             </div>
                                         </a>
                                     </div>
                                     <div className="goodlibox" style={{ marginRight: "0px" }}>
                                         <a href="">
                                             <img src={goodlilist.tab3.pic} alt="" />
-                                            <div className="goodlilistcontent">
+                                            <div className="goodlilistcontent"onClick={this.itemclick3.bind(this)} >
                                                 <p className="goodlilistcontentname">{goodlilist.tab3.name}</p>
                                                 <p className="goodlilistcontentberif"> {goodlilist.tab3.berif}</p>
-                                                <p className="goodlilistcontentprie">￥ <span gcode="1008412">{goodlilist.tab3.prie}</span></p>
+                                                <p className="goodlilistcontentprice">￥ <span gcode="1008412">{goodlilist.tab3.price}</span></p>
                                             </div>
                                         </a>
                                     </div>

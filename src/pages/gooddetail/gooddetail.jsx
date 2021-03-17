@@ -16,32 +16,44 @@ class gooddetail extends Component {
             good:"",
             ShoppingCartvalue:"0",
             gooddetaillist:"",
-            id:""
+            id:"",
+            model1:"",
+            model2:"",
+            model:""
+            
 
         }
 
     }
     componentDidMount(){
+        document.documentElement.scrollTop = document.body.scrollTop =0;
         fetch("/api/gooddetaillist1")
         .then(res => res.json())
         .then(data => {
             console.log(data, "从服务器获取到的商品详情")
             //把数据赋值给 banners 然后渲染在页面上 
             this.setState({
-                gooddetaillist: data
+                gooddetaillist: data,
+                model1:data.model1,
+                model2:data.model2,
+                model:this.state.model1
+
             })
         })
     }
     Click1() {
         this.setState({
             color1: "#ff0000",
-            color2: "#DADADA"
+            color2: "#DADADA",
+            model:this.state.model1,
+
         })
     }
     Click2() {
         this.setState({
             color2: "#ff0000",
-            color1: "#DADADA"
+            color1: "#DADADA",
+            model:this.state.model2,
         })
     }
     Click3() {
@@ -202,8 +214,8 @@ class gooddetail extends Component {
                                     </li>
                                     <li className="guige-li " id="guigeitem0"><div className="guige-item-title">选择配置</div>
                                         <div className="guige-item-detail">
-                                            <span className="spec-big" onClick={this.Click1.bind(this)} style={{ color: this.state.color1, borderColor: this.state.color1 }}><i>【R5/16GB/512G SSD/1650】幻影黑</i></span>
-                                            <span className="spec-big" onClick={this.Click2.bind(this)} style={{ color: this.state.color2, borderColor: this.state.color2 }}><i>【R5/16GB/512G SSD/1650】冰魄白</i>
+                                            <span className="spec-big" onClick={this.Click1.bind(this)} style={{ color: this.state.color1, borderColor: this.state.color1 }}><i>{good.model1}</i></span>
+                                            <span className="spec-big" onClick={this.Click2.bind(this)} style={{ color: this.state.color2, borderColor: this.state.color2 }}><i>{good.model2}</i>
                                             </span>
                                         </div>
                                     </li>

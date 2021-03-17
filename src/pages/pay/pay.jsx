@@ -22,22 +22,18 @@ class pay extends Component {
             userinformation: [],
             ordernum:"",
             time:"",
+            zfb:"",
         };
 
     }
     componentDidMount() {
+        document.documentElement.scrollTop = document.body.scrollTop =0;
         fetch("/api/pay")
             .then(res => res.json())
             .then(data => {
 
                 console.log(data, "支付列表列表数据")
-                // var goods = JSON.parse(JSON.stringify(data))
-                // var list = goods.filter(item => item.count !== "0")
-                // // console.log(list, "购物车列表数据goods")
-                // list.find(item => {
-                //     item.price = parseInt(item.count) * parseInt(item.price)
-                // })
-                // console.log(list, "购物车列表数据最终")
+              
                 this.setState({
                     goodlist: data
                 })
@@ -78,6 +74,22 @@ class pay extends Component {
 
     }
     Clickpay(){
+        var price=this.state.countprice
+        // this.props.history.push('/apii/test');
+        var url='/apii/test?price='+price.toString()
+        fetch(url)
+        .then(res => res.json())
+        .then(data => {
+            console.log(data, "支付宝返回")
+            // this.setState({
+            //     zfb:data
+            // })
+            window.location.href = data
+
+            // this.setState({
+            //     userinformation: data
+            // })
+        })
 
     }
     render() {
@@ -154,10 +166,10 @@ class pay extends Component {
                             </div>
                         </div>
                         <div className="bc_table">
-                            <table cellpadding="0" cellspacing="0">
+                            <table cellPadding="0" cellspacing="0">
                                 <tbody>
                                     <tr>
-                                        <th colspan="3" width="462">商品</th>
+                                        <th colSpan="3" width="462">商品</th>
                                         <th width="163">规格</th>
                                         <th width="152">单价</th>
                                         <th width="152">数量</th>
@@ -166,7 +178,7 @@ class pay extends Component {
                                     </tr>
                                 </tbody>
                             </table>
-                            <table cellpadding="0" cellspacing="0">
+                            <table cellPadding="0" cellspacing="0">
                                 <tbody>
 
                                     {
@@ -234,7 +246,7 @@ class pay extends Component {
                                             <p></p>
                                         </div>
                                         <div className="bc_probtn clearfix" style={{position:"absolute",bottom:"0px",right:"0px",paddingBottom:"20px",paddingRight:"20px"}}>
-                                        <a href="javascript:;" title="去结算" id="submit" event-name="PC_去结算" onClick={this.Clickpay.bind(this)} >去结算</a>
+                                        <a href="javascript:;" title="去结算" id="submit" event-name="PC_去结算"  onClick={this.Clickpay.bind(this)} >去结算</a>
                                     </div>
                                     </div>
 

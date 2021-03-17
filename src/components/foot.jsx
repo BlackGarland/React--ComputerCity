@@ -36,7 +36,7 @@ class foot extends React.Component{
      
      
     render () {
-        console.log(this.props.name,"name22222222")
+        // console.log(this.props.name,"name22222222")
         
         
       return (

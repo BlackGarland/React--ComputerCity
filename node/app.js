@@ -29,6 +29,20 @@ app.use(bodyParser.json());
 app.use('/api',router);
 
 
+
+app.all('/apii/*',(req,res,next)=>{
+	//设置允许跨域响应报文头
+	//设置跨域
+	res.header("Access-Control-Allow-Origin", "*");
+	res.header("Access-Control-Allow-Headers", "X-Requested-With");
+	res.header("Access-Control-Allow-Methods","*");
+	res.setHeader('Content-Type','application/json;charset=utf-8');
+	next();
+});
+
+//2.0 设置路由规则
+const alipay = require('./router/alipay.js');
+app.use('/',alipay)
 app.listen(3001, function () {
   console.log('~~~~~~~~~~~~~app is running at port 3001.~~~~~~~~~~~~~')
 })

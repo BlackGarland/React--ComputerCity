@@ -28,7 +28,7 @@ class success1 extends Component {
                                 <img src="https://p3.lefile.cn/product/adminweb/2019/08/27/2635857d-5696-4aa0-8428-d4cacd8cee62.png" className="share-bg " />
                             </div>
                         </div>
-                        <div class="info-line"></div>
+                        <div className="info-line"></div>
                         <div className="pcContent">
                             <p><img src="//p2.lefile.cn/fes/cms/2020/03/16/qtfngdfvjzxdfpeh1tcahubmf0wzw9208140.jpg" /></p>
                             <p style={{ textAlign: "center" }}>
@@ -42,7 +42,7 @@ class success1 extends Component {
                             <p>丽江古城管理局，希望借助于5G+智能应用手段增强丽江古城的科技感，提升丽江古城在海内外的吸引力和品牌知名度，兼顾采用数字手段加强古城的日常管理。</p>
                             <h1 className="pcContenth1">业务痛点</h1>
                             <p >自2019年起，云南开始大力推行5G试点。丽江古城作为云南著名的旅游景点，每年接待游客超过4800万，日接待游客最高时期超过30万人次。然而，密集的人流量给丽江古城管理带来了巨大的压力：大量基础运维工作，如清洁、巡逻、安防以及食品饮料品售卖等，耗费大量人力、物力资源，使得古城运维成本显著增加，安防能力急需完善，运维效率急需提升。</p>
-                            <h1 class="pcContenth1">解决方案</h1>
+                            <h1 className="pcContenth1">解决方案</h1>
                             <p>这次合作体现了联想在硬件基础设施、5G、人工智能、AR、云、分布式存储和大数据分析等领域的全面技术积累，突出了联想整合行业生态资源并进行综合系统设计、交付和提供服务的整体解决方案的全价值链落地能力。联想在丽江古城部署5G网络，并基于此，部署园区古城数字化管理整体解决方案：</p>
                         </div>
                     </div>

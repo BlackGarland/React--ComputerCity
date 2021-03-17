@@ -28,7 +28,7 @@ class news4 extends Component {
                                 <img src="https://p3.lefile.cn/product/adminweb/2019/08/27/2635857d-5696-4aa0-8428-d4cacd8cee62.png" className="share-bg " />
                             </div>
                         </div>
-                        <div class="info-line"></div>
+                        <div className="info-line"></div>
                         <div className="pcContent">
                             <p><img src="https://p3.lefile.cn/fes/cms/2021/01/05/u2o2yy25abhn4h1i26q38pc4xsigab554863.jpg" /></p>
                             {/* <p style={{ textAlign: "center" }}>

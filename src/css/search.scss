@@ -1,0 +1,150 @@
+.searchbody {
+    background-color: #f5f5f5;
+    width: 100%;
+    min-height: 100px;
+
+    .resultbar {
+        background-color: #fff;
+        width: 100%;
+        // height: auto;
+        min-height: 50px;
+        line-height: 48px;
+        margin: 0 auto;
+        
+        .headUl {
+            
+            // background-color: #f5f5f5;
+            position: relative;
+            .resultBox {
+                font-size: 12px;
+                width: 1200px;
+                margin: 0 auto;
+                .allresult {
+                    float: left;
+                    width: 8.5%;
+                    color: #000000;
+                    padding-left: 10px;
+                    display: inline-block;
+                }
+                .productNum {
+                    float: right;
+                    height: 48px;
+                    text-align: center;
+                    width: 10%;
+                    .num {
+                        color: red;
+                        font-size: 16px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        position: static;
+                    }
+                }
+                .resault {
+                    color: red;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+.notfund {
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    p {
+        position: relative;
+        font-size: 14px;
+        color: #000000;
+        .resault {
+            margin-left: 10px;
+            margin-right: 10px;
+            color: red;
+            font-size: 14px;
+        }
+        .nf-icon {
+            margin-top: 10px;
+            position: relative;
+            left: 400px;
+            float: left;
+            // margin-left: 500px;
+            display: block;
+            width: 32px;
+            height: 32px;
+            background: url(http://misc.360buyimg.com/product/search/1.0.8/css/i/search.notice.png) no-repeat 0 2px;
+        }
+    }
+}
+
+.goodbox1{
+width: 100%;
+margin-top: 50px;
+}
+.goodlistitembox {
+    margin-top: 20px;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    font-size: 14px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    background-color: #f5f5f5;
+    .goodlist {
+        width: 290px;
+        height: 375px;
+        background-color: #fff;
+        margin-right: 10px;
+        margin-bottom: 14px;
+        vertical-align: top;
+        padding: 10px 20px 0px;
+        position: relative;
+        overflow: hidden;
+        float: left;
+        .pic {
+            width: 250px;
+            height: 160px;
+            display: block;
+            text-align: center;
+            cursor: pointer;
+            margin: 0 auto;
+            overflow: hidden;
+            border-bottom: 1px solid #ebebeb;
+            padding-bottom: 40px;
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+        .search_name {
+            line-height: 17px;
+            height: 36px;
+            overflow: hidden;
+            margin-top: 14px;
+            text-align: left;
+            a {
+                color: #424242;
+                font-size: 12px;
+            }
+        }
+        .search_mes {
+            height: 36px;
+            line-height: 17px;
+            overflow: hidden;
+            margin-top: 5px;
+            text-align: left;
+            color: #cfcfcf;
+            a {
+                color: #cfcfcf;
+                font-size: 12px;
+            }
+        }
+        .search_price {
+            font-size: 14px;
+            font-weight: bold;
+            color: #2d2d2d;
+            height: 30px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+        }
+    }
+}

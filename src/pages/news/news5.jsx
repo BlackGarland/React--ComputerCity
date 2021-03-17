@@ -28,7 +28,7 @@ class news5 extends Component {
                                 <img src="https://p3.lefile.cn/product/adminweb/2019/08/27/2635857d-5696-4aa0-8428-d4cacd8cee62.png" className="share-bg " />
                             </div>
                         </div>
-                        <div class="info-line"></div>
+                        <div className="info-line"></div>
                         <div className="pcContent">
                             {/* <p><img src="https://p4.lefile.cn/fes/cms/2021/01/15/oxtq4916xuwk477lx4pt8v4gsopz19425131.jpg" /></p> */}
                             {/* <p style={{ textAlign: "center" }}>
@@ -47,7 +47,7 @@ class news5 extends Component {
 2017年，联想集团执行副总裁兼中国区总裁刘军依托集团“3S战略”，在联想中国推出“日出东方”战略，公布了“联想 智慧中国”的愿景，坚定实施以客户为中心转型、智能产品和智慧服务两大转型。
 
 这两大转型，被业界称之为双引擎驱动，前者聚焦于PC业务的创新发展，后者聚焦于智慧服务业务的全面突破。</p>
-                            {/* <h1 class="pcContenth1">解决方案</h1> */}
+                            {/* <h1 className="pcContenth1">解决方案</h1> */}
                             <p>联想，作为中国新兴科技公司的代表，意气风发，挥斥方遒，在国际市场后来居上，击败了曾经不可一世的跨国公司们，坐上了全球PC王者的宝座。
 
 但是，正如联想内部经常说的，要想登上一个新的山头，必须先到达山脚。2015年前后，由于外部大环境不景气，联想在PC业务上也面临了外部的严重挑战。</p>

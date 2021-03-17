@@ -21,6 +21,8 @@ import News3 from "../pages/news/news3"
 import News4 from "../pages/news/news4"
 import News5 from "../pages/news/news5"
 import News6 from "../pages/news/news6"
+import Search from "../pages/search/search"
+
 
 function RouterMap() {
   return (
@@ -47,6 +49,7 @@ function RouterMap() {
       <Route path='/news4' exact component={News4}></Route>
       <Route path='/news5' exact component={News5}></Route>
       <Route path='/news6' exact component={News6}></Route>
+      <Route path='/search/:search' exact component={Search}></Route>
 
 
       <Redirect to="/" ></Redirect>

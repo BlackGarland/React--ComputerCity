@@ -10,6 +10,8 @@ import { title } from 'process'
 import { render } from '@testing-library/react';
 import { fetchget } from '../utils/zgfetch'
 import { Badge } from 'antd';
+import { Input } from 'antd';
+const { Search } = Input;
 // type IProps =Readonly<{
 //     children?: ReactNode
 //     title?: string
@@ -30,6 +32,9 @@ class headfoot extends React.Component {
             login: "none",
             login2: "none",
             number:"0",
+            search:"block",
+            searchdata:"",
+            msg:""
         };
         this.HandleScroll = this.HandleScroll.bind(this)
     }
@@ -37,24 +42,7 @@ class headfoot extends React.Component {
     componentDidMount() {
         window.addEventListener('scroll', this.HandleScroll);
         this.sendRequest()
-        // if(typeof(this.props.number)!=='undefined'){
-        // var number1=parseInt(this.props.number)
-        // var number2=parseInt(this.state.number)
-        // var number=number1+number2
-        
-        // // this.setState({
-        // //     number:number
-        // // })
-        
 
-
-
-        // }
-       
-        
-
-
-        
     }
 
     componentDidUpdate(){
@@ -69,7 +57,7 @@ class headfoot extends React.Component {
             })
     }
 
-    sendRequest = async () => {
+    async sendRequest(){
         let data = await fetchget("/api/islogin")
         console.log(data[0], "sssssssssssssssssssss")
         if (data[0].name != "1") {
@@ -99,6 +87,7 @@ class headfoot extends React.Component {
                 big: "50px",
                 guding: "fixed",
                 top: "0px",
+                search:"none"
 
             })
         } else if (scrollTop < 50) {
@@ -107,6 +96,7 @@ class headfoot extends React.Component {
                 big: true,
                 guding: "static",
                 top: "50px",
+                search:"block",
             })
         }
 
@@ -115,9 +105,38 @@ class headfoot extends React.Component {
     shoppingcar(){
         this.props.history.push('/shoppingcar');
     }
+    changesearch(e){
+        var search=e.target.value
+        // console.log(search,"搜索")
+        this.setState({
+            searchdata:search
+        })
+    }
+    onsearch(value, event){
+        if(this.state.searchdata!=""){
+            var search=this.state.searchdata
+            console.log(search,"点击")
+            var url='/api/search?searchdata='+search.toString()
+            fetch(url,{
+                method:'get'
+            }).then(this.props.history.push({pathname:"/search/"+ search}))
+             .then(this.searchgoods())
+        }
+    }
+
+    searchgoods(){
+        if(typeof this.props.searchgoods=== 'undefined'){
+            
+            console.log(typeof this.props.searchgoods,"类型111111")
+        }else{
+            this.props.searchgoods()
+        }
+        
+    }
     render() {
         // console.log(this.props.name, "name22222222")
         var number=this.state.number
+        const onSearch = value => console.log(value);
 
         // var number1=parseInt(this.props.number)
         // var number=0
@@ -186,7 +205,7 @@ class headfoot extends React.Component {
                                              {/* 购物车 */}
                                         <div className="shopping-carimgbox" style={{float:"right", marginRight:"30px",marginLeft:"20px"}} onClick={this.shoppingcar.bind(this)}>
                                             <Badge count={number}>
-                                            <img class="hd-shopping-car" src="https://p4.lefile.cn/product/adminweb/2018/11/07/b789b6bc-b958-467c-bd78-8cc616f39f1f.png"/>
+                                            <img className="hd-shopping-car" src="https://p4.lefile.cn/product/adminweb/2018/11/07/b789b6bc-b958-467c-bd78-8cc616f39f1f.png"/>
                                             </Badge>
                                         </div>
                                         
@@ -197,7 +216,7 @@ class headfoot extends React.Component {
                                             <span style={{ color: "#e1140a" }}>{this.state.name}已登录</span>
                                             <div className="shopping-carimgbox" style={{float:"right", marginRight:"30px",marginLeft:"20px"}} onClick={this.shoppingcar.bind(this)}>
                                             <Badge count={number}>
-                                            <img class="hd-shopping-car" src="https://p4.lefile.cn/product/adminweb/2018/11/07/b789b6bc-b958-467c-bd78-8cc616f39f1f.png"/>
+                                            <img className="hd-shopping-car" src="https://p4.lefile.cn/product/adminweb/2018/11/07/b789b6bc-b958-467c-bd78-8cc616f39f1f.png"/>
                                             </Badge>
                                         </div>
                                         </div>
@@ -225,7 +244,8 @@ class headfoot extends React.Component {
                                             <li><a href="/#">企业购</a></li>
                                             <li><a href="/#">0元购</a></li>
                                         </ul>
-                                    </div>
+                                        <Search placeholder="输入搜索内容" onSearch={onSearch} enterButton style={{ width: 200 ,float:'right',color: '#1890ff',height:"20px",marginTop:"20px",display:this.state.search}} onChange={(e) => this.changesearch(e)} onSearch={(value, event) => this.onsearch(value, event)}/>
+                                    </div> 
                                 </div>
                             </Affix>
                         </div>
@@ -246,24 +266,6 @@ class headfoot extends React.Component {
 
 
 
-// const headfoot =({ children, title = 'This is the default title' })=> {
-//     // const [top, setTop] = useState(0);
-//     // const title=this.props.data
-
-//     return (
-
-
-// )
-// } 
-
-// const headfoot =()=>{
-
-//    return(
-//        <div>{11111}</div>
-//    )
-
-
-// }
 export default headfoot
 
 

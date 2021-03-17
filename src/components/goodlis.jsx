@@ -162,7 +162,7 @@ class goodlis extends Component {
                                 <div className="product-des-box">
                                     <a href="javascript:;" className="product-des-title">{goodlist1[0].name}</a>
                                     <a href="javascript:;" className="product-des-subtitle">{goodlist1[0].berif}</a>
-                                    <p className="product-card-price">{goodlist1[0].price}</p>
+                                    <p className="product-card-price">¥&nbsp;{goodlist1[0].price}</p>
                                 </div>
                             </li>
                             {/* 2 */}
@@ -175,7 +175,7 @@ class goodlis extends Component {
                                 <div className="product-des-box">
                                    <a href="javascript:;" className="product-des-title">{goodlist1[1].name}</a>
                                    <a href="javascript:;" className="product-des-subtitle">{goodlist1[1].berif}</a>
-                                    <p className="product-card-price">{goodlist1[1].price}</p>
+                                    <p className="product-card-price">¥&nbsp;{goodlist1[1].price}</p>
                                 </div>
                             </li>
                             {/* 3 */}
@@ -188,7 +188,7 @@ class goodlis extends Component {
                                 <div className="product-des-box">
                                    <a href="javascript:;" className="product-des-title">{goodlist1[2].name}</a>
                                    <a href="javascript:;" className="product-des-subtitle">{goodlist1[2].berif}</a>
-                                    <p className="product-card-price">{goodlist1[2].price}</p>
+                                    <p className="product-card-price">¥&nbsp;{goodlist1[2].price}</p>
                                 </div>
                             </li>
                             {/* 4 */}
@@ -201,7 +201,7 @@ class goodlis extends Component {
                                 <div className="product-des-box">
                                    <a href="javascript:;" className="product-des-title">{goodlist1[3].name}</a>
                                    <a href="javascript:;" className="product-des-subtitle">{goodlist1[3].berif}</a>
-                                    <p className="product-card-price">{goodlist1[3].price}</p>
+                                    <p className="product-card-price">¥&nbsp;{goodlist1[3].price}</p>
                                 </div>
                             </li>
                             {/* 5 */}
@@ -214,7 +214,7 @@ class goodlis extends Component {
                                 <div className="product-des-box">
                                    <a href="javascript:;" className="product-des-title">{goodlist1[4].name}</a>
                                    <a href="javascript:;" className="product-des-subtitle">{goodlist1[4].berif}</a>
-                                    <p className="product-card-price">{goodlist1[4].price}</p>
+                                    <p className="product-card-price">¥&nbsp;{goodlist1[4].price}</p>
                                 </div>
                             </li>
                             {/* 6 */}
@@ -227,7 +227,7 @@ class goodlis extends Component {
                                 <div className="product-des-box">
                                    <a href="javascript:;" className="product-des-title">{goodlist1[5].name}</a>
                                    <a href="javascript:;" className="product-des-subtitle">{goodlist1[5].berif}</a>
-                                    <p className="product-card-price">{goodlist1[5].price}</p>
+                                    <p className="product-card-price">¥&nbsp;{goodlist1[5].price}</p>
                                 </div>
                             </li>
                             {/* 7 */}
@@ -240,7 +240,7 @@ class goodlis extends Component {
                                 <div className="product-des-box">
                                    <a href="javascript:;" className="product-des-title">{goodlist1[6].name}</a>
                                    <a href="javascript:;" className="product-des-subtitle">{goodlist1[6].berif}</a>
-                                    <p className="product-card-price">{goodlist1[6].price}</p>
+                                    <p className="product-card-price">¥&nbsp;{goodlist1[6].price}</p>
                                 </div>
                             </li>
                             {/* 8 */}
@@ -253,7 +253,7 @@ class goodlis extends Component {
                                 <div className="product-des-box">
                                    <a href="javascript:;" className="product-des-title">{goodlist1[7].name}</a>
                                    <a href="javascript:;" className="product-des-subtitle">{goodlist1[7].berif}</a>
-                                    <p className="product-card-price">{goodlist1[7].price}</p>
+                                    <p className="product-card-price">¥&nbsp;{goodlist1[7].price}</p>
                                 </div>
                             </li>
                         </ul>
